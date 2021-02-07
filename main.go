@@ -27,7 +27,7 @@ import (
 func main() {
 	// circumvent all logic to just determine if xo was built with oracle
 	// support
-	fmt.Println("xo - Ninja Software Fork V3")
+	fmt.Println("xo - Ninja Software Fork V1")
 	if len(os.Args) == 2 && os.Args[1] == "--has-oracle-support" {
 		var out int
 		if _, ok := internal.SchemaLoaders["godror"]; ok {
